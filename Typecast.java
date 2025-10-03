@@ -46,5 +46,14 @@ public static void main(String args[]){
     int anInt = 66;
     char aChar = (char)anInt; // Converts the int value to its corresponding ASCII/Unicode character.
     System.out.println("int (66) to char: " + aChar);
+
+
+    // Type Promotion
+    byte num1 = 30;
+    byte num2 = 10;
+
+    int Result = num1 * num2;
+    System.out.println("Product of num1 * num2 = "+Result);
+    // Here the product of 2 byte values is stored as an Int value, as the final ans is exceeding the byte datatype's range.
 }
 }
