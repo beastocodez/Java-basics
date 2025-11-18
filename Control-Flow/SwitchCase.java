@@ -65,60 +65,7 @@ public class SwitchCase{
         
         System.out.println();
         
-        // Example 3: Switch with multiple operations per case
-        int choice = 2;
-        System.out.println("choice = " + choice);
-        switch(choice) {
-            case 1:
-                System.out.println("Example 3 - You chose Option 1");
-                System.out.println("Example 3 - Performing action 1");
-                break;
-            case 2:
-                System.out.println("Example 3 - You chose Option 2");
-                System.out.println("Example 3 - Performing action 2");
-                break;
-            case 3:
-                System.out.println("Example 3 - You chose Option 3");
-                System.out.println("Example 3 - Performing action 3");
-                break;
-            default:
-                System.out.println("Example 3 - Invalid choice");
-        }
-        
-        System.out.println();
-        
-        // Example 4: Switch with fall-through (without break)
-        // When break is missing, execution continues to next case
-        int month = 1;
-        System.out.println("month = " + month);
-        switch(month) {
-            case 12:
-            case 1:
-            case 2:
-                System.out.println("Example 4 - Winter season");
-                break;
-            case 3:
-            case 4:
-            case 5:
-                System.out.println("Example 4 - Spring season");
-                break;
-            case 6:
-            case 7:
-            case 8:
-                System.out.println("Example 4 - Summer season");
-                break;
-            case 9:
-            case 10:
-            case 11:
-                System.out.println("Example 4 - Fall season");
-                break;
-            default:
-                System.out.println("Example 4 - Invalid month");
-        }
-        
-        System.out.println();
-        
-        // Example 5: Switch with String (Java 7+)
+        // Example 3: Switch with String (Java 7+)
         String fruit = "Apple";
         System.out.println("fruit = " + fruit);
         switch(fruit) {
