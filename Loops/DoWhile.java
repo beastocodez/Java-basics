@@ -9,6 +9,6 @@ public class DoWhile {
         do {
             System.out.println("Hello " +i);
             i++;
-        }while(i<=4);
+        }while(i<=4); // Prints "Hello 5" once even if the condition is not satisfied.
 }
 }
