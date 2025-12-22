@@ -6,7 +6,7 @@ public class ForLoop{
                 
                 for(int j=1; j<=9;j++)
                 {
-                    System.out.println("     Hour " + (j+8));
+                    System.out.println("     Hour " + (j+8) + "-" + (j+9));
 
                 }
 
